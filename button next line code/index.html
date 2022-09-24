@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Application Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+	<script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+	integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+	crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+	integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+	crossorigin="anonymous"></script>
+	<script src="./assets/scripts/common_function.js"></script>
+	<script src="./assets/scripts/srcipt.js"></script>
+	<script src="./assets/scripts/upload_file.js"></script>
+	<script src="./assets/scripts/validation.js"></script>
+
+</head>
+
+<body>
+	<div class="main_padding application_form">
+		<div class="container  ">
+			<div class="row ">
+				<div class="col-md-12">
+					<div class="form_section border p-3 rounded-1">
+						<form method="post" action="login.html" enctype="mutlipart/form-data" id="step1-form">
+							<div class="form_heading">
+								<img src="assets/images/logo.png" class="mx-auto d-block mb-2">
+								<h3>Enrolment Registration Form</h3>
+							</div>
+
+							<div class="row">
+								<div class="col-md-6  mb-3">
+									<label class="text-dark" for="applicant_name">Name of the Applicant</label>
+									<input type="text" class="form-control" name="applicant_name" id="applicant_name"
+									placeholder="Enter Name">
+								</div>
+								<div class="col-md-6  mb-3">
+									<label class="text-dark" for="applicant_name">Name Of Father's/Husband's </label>
+									<input type="text" class="form-control" name="applicant_name" id="applicant_name"
+									placeholder="Enter Father/Husband Name">
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-6  mb-3">
+									<label class="text-dark" for="email">E-Mail ID </label>
+									<input type="email" class="form-control" name="email" id="email"
+									placeholder="Enter Email">
+								</div>
+								<div class="col-md-6  mb-3">
+									<label class="numeric-only text-dark" for="mobiloenumber">Mobile No.  </label>
+									<input type="text" class="form-control" name="mobilenumber" id="mobiloenumber"
+									placeholder="Enter Number">
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-6  mb-3">									
+									<label class="text-dark" for="category">Category (General/BC/SC)</label>
+										<select class="form-control form-select" name="category" id="category" >
+											<option selected="" disabled="">Select Category</option>
+											<option value="1">General</option>
+											<option value="2">OBC</option>
+											<option value="3">SC/ST/BPL</option>
+											<option value="4">Handicaps/Blinds</option>
+										</select>
+								</div>
+								<div class="col-md-6  mb-3">
+									<label class="text-dark" for="nationality">Nationality</label>
+										<select class="form-control form-select" name="nationality" id="nationality" >
+											<option selected="" disabled="">Select Nationality</option>
+											<option value="1">Indian</option>
+											<option value="2">Foreigner</option>
+										</select>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-6  mb-3">
+									<label class="text-dark" for="country">Country</label>
+									<input type="text" class="form-control" name="applicant_name" id="country"
+									placeholder="Enter country Name">
+								</div>
+								<div class="col-md-6  mb-3">
+									<label class="text-dark" for="state">State </label>
+									<input type="text" class="form-control" name="state" id="state"
+									placeholder="Enter state Name">
+								</div>
+							</div>
+
+
+							<div class="row ">
+								<div class="col-md-6  mb-3">
+									<label class="text-dark" for="country">City</label>
+									<input type="text" class="form-control" name="city" id="city"
+									placeholder="Enter City Name">
+								</div>
+								<div class="col-md-6  mb-3">
+									<label class="text-dark" for="state">District </label>
+									<input type="text" class="form-control" name="district" id="district"
+									placeholder="Enter District Name">
+								</div>
+							</div>
+
+
+							
+
+							<div class="row">
+								<div class="col-md-6  mb-3">
+									<label class="text-dark" for="date_of_birth">Date of Birth</label>
+									<input type="date" class="form-control" name="date_of_birth" id="date_of_birth"
+									placeholder="">				
+								</div>
+								<div class="col-md-6  mb-3">
+									<label class="text-dark" for="adhaarno">Adhaar No. </label>
+									<input type="text" class="form-control" name="adhaarno" id="adhaarno"
+									placeholder="Enter Adhaar No.">
+								</div>
+							</div>
+							<div class="row mb-2 mt-2">
+								<div class="col-md-6 ">
+									<div class="mt-2 ">
+										<a href="login.html" name="" class="custom_btn">Login</a>
+									</div>
+								</div>
+								<div class="col-md-6 ">
+									<div class="submit_btn">
+										<input type="submit" name="" value="Register" class="float-end">
+									</div>
+								</div>
+							</div>
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

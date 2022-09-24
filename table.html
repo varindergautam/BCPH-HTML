@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table Format</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/scripts/script.js"></script>
+	<script type="text/javascript" src="assets/scripts/common_function.js"></script>
+	<script type="text/javascript" src="assets/scripts/upload_file.js"></script>
+	<script type="text/javascript" src="assets/scripts/validation.js"></script>
+</head>
+<body>
+
+	<header>
+		<div class="container py-2">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="btn-group float-end">
+					  <a type="button" class="text-decoration-none text-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+					    Welcome, <span class="fw-bold">Dishant Thakur</span>
+					  </a>
+					  <ul class="dropdown-menu">
+					    <li><a class="dropdown-item" href="change-password.html">Change Password</a></li>
+					    <li><a class="dropdown-item" href="login.html">Logout</a></li>
+					  </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<div class="main_padding application_form">
+		<div class="container  ">
+			<div class="row ">
+				<div class="col-md-12">
+					<div class="form_section border p-3 rounded-1">
+						<form method="post" action="application_form.html" enctype="mutlipart/form-data" id="step1-form">
+							<div class="form_heading">
+								<h3>Bar Council of Punjab & Haryana Chandigarh</h3>
+							</div>
+
+							<div class="text-dark">
+								<h3 class="text-center">INDEX</h3>
+
+								<div class="row mt-3 mb-3">
+									<div class="col-md-6">
+										<label class="text-dark" for="applicant_name">Name of the Applicant</label>
+										<input type="text" class="form-control" name="applicant_name" id="applicant_name"
+										placeholder="Enter name" value="Dishant Thakur">
+									</div>
+									<div class="col-md-6">
+										<label class="text-dark" for="mobile_no">Mobile No. </label>
+										<input type="text" class="form-control" name="mobile_no" id="mobile_no"
+										placeholder="Enter mobile no" value="7508068170">
+									</div>
+								</div>
+
+								<div class="row mb-3">
+									<div class="col-md-6">
+										<label class="text-dark" for="date_of_birth">Date of Birth</label>
+										<input type="text" class="form-control" name="date_of_birth" id="date_of_birth" placeholder="" value="03-Jun-1995">
+									</div>
+									<div class="col-md-6">
+										<label class="text-dark" for="email">E-Mail ID </label>
+										<input type="email" class="form-control" name="email" id="email"
+										placeholder="Enter email" value="dishant@gmail.com">
+									</div>
+								</div>
+
+								<div class="row mb-2">
+									<div class="col-md-12">
+										<p class="text-center  fw-bold">The required documents/copies should be attached as per index given below:- </p>
+									</div>
+								</div>
+
+
+								<table width="100%" class="table table-bordered">
+									<tr>
+										<th>S. No.</th>
+										<th>Description of Document</th>
+										<th>Page No.</th>
+									</tr>
+									<tr>
+										<td width="8%">1.</td>
+										<td width="80%">Enrolment Form-B</td>
+										<td width="12%">1</td>
+									</tr>
+									<tr>
+										<td width="8%">2.</td>
+										<td width="80%">Original Provisional Certificate of LL.B and its self attested copy OR
+											Two self attested copies in case of original degree (See enclosure page-5)
+										</td>
+										<td width="12%">2</td>
+									</tr>
+									<tr>
+										<td width="8%">3.</td>
+										<td width="80%">Original Attendance Certificate showing minimum 70 % and its self attested copies (See enclosure page-5)</td>
+										<td width="12%">3</td>
+									</tr>
+									<tr>
+										<td width="8%">4.</td>
+										<td width="80%">Self attested copy of all DMC of LL.B. Three Year/Five Year (See enclosure page-5)</td>
+										<td width="12%">4</td>
+									</tr>
+									<tr>
+										<td width="8%">5.</td>
+										<td width="80%">Self attested copy of Matriculation Certificate (DOB) (See enclosure page-5)</td>
+										<td width="12%">5</td>
+									</tr>
+									<tr>
+										<td width="8%">6.</td>
+										<td width="80%">Self attested copy of 10+2 Certificate with calculated of %	</td>
+										<td width="12%">6</td>
+									</tr>
+									<tr>
+										<td width="8%">7.</td>
+										<td width="80%">Self attested copy of all DMC of Graduation and degree with %	</td>
+										<td width="12%">7</td>
+									</tr>
+									<tr>
+										<td width="8%">8.</td>
+										<td width="80%">Affidavit of Law degree (See enclosure page-5)</td>
+										<td width="12%">8</td>
+									</tr>
+									<tr>
+										<td width="8%">9.</td>
+										<td width="80%">Affidavit of stamp duty (See enclosure page-5)</td>
+										<td width="12%">9</td>
+									</tr>
+									<tr>
+										<td width="8%">10.</td>
+										<td width="80%">Affidavit of AIBE	(See enclosure page-5)</td>
+										<td width="12%">10</td>
+									</tr>
+									<tr>
+										<td width="8%">11.</td>
+										<td width="80%">Self attested of residence proof, Aadhar Card , Voter Card, Driving Licence</td>
+										<td width="12%">11</td>
+									</tr>
+									<tr>
+										<td width="8%">12.</td>
+										<td width="80%">Self attested copy Category certificate</td>
+										<td width="12%">12</td>
+									</tr>
+									<tr>
+										<td width="8%">13.</td>
+										<td width="80%">Service Certificate (Column No.11,if any ,as per enclosure at page-5)</td>
+										<td width="12%">13</td>
+									</tr>
+									<tr>
+										<td width="8%">14.</td>
+										<td width="80%">Documents relating to column No.12,13 (A) & (B and 14,if any(See page-5)</td>
+										<td width="12%">14</td>
+									</tr>
+									<tr>
+										<td width="8%">15.</td>
+										<td width="80%">Gap Affidavit, if any, before joining graduation/LL.B or after LL.B</td>
+										<td width="12%">15</td>
+									</tr>
+									<tr>
+										<td width="8%">16.</td>
+										<td width="80%">Additional affidavit/ documents, if any</td>
+										<td width="12%">16</td>
+									</tr>
+									<tr>
+										<td width="8%">17.</td>
+										<td width="80%">Any other documents</td>
+										<td width="12%">17</td>
+									</tr>
+								</table>
+								<div class="row text-dark mt-5">
+									<div class="col-md-6">
+										<p>Dated: <span class="fw-bold">03-09-2022</span></p>
+									</div>
+									<div class="col-md-6">
+										<p>Dishant Thakur</p>
+										<p class="fw-bold">Application's Signature</p>
+									</div>
+								</div>
+
+								<p><strong>Important Note</strong>:- The applicant is requested to fill the Enrolment Form all columns should be filled properly. Leaving any column blank may cause delay of disposal and Enrolment case.Form should be submitted in person to avoid delay.</p>
+
+								
+
+
+
+
+								<div class="row text-dark mt-5">
+									<div class="col-md-6">
+										<!-- <p>Dated: <span class="fw-bold">03-09-2022</span></p> -->
+									</div>
+									<div class="col-md-6">
+										<!-- <p>Dishant Thakur</p> -->
+										<p class="fw-bold">Signature of the checking official</p>
+									</div>
+								</div>
+
+							</div>
+
+							
+							<div class="row mb-3 mt-5">
+								<div class="col-md-6 ">
+									<!-- <div class="mt-2 ">
+										<a href="page16.html" name="" class="custom_btn">Previous</a>
+									</div> -->
+								</div>
+								<div class="col-md-6 ">
+									<div class="submit_btn">
+										<input type="submit" name="" value="Next" class="float-end">
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>
